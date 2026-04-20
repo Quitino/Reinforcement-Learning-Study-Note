@@ -1,0 +1,32 @@
+title: "强化学习笔记：从基础到 Actor-Critic"
+description: "基于西湖大学赵世钰老师课程的强化学习完整笔记，覆盖 MDP、贝尔曼方程、值迭代、蒙特卡洛、TD、DQN、策略梯度、Actor-Critic"
+
+remote_theme: just-the-docs/just-the-docs
+
+url: "https://quitino.github.io"
+baseurl: "/Reinforcement-Learning-Study-Note"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# just-the-docs 配置
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+
+# 页脚
+footer_content: "强化学习笔记 &copy; 2026 | 基于赵世钰老师【强化学习的数学原理】课程整理"
+
+# 代码高亮
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# 排除不需要发布的文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "*.gemspec"
+  - vendor/

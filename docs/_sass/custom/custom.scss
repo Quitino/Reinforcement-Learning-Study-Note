@@ -1,0 +1,7 @@
+// 移除内容区所有宽度限制，消除宽屏右侧留白
+.main-content-wrap,
+.main-content,
+main#content,
+article.page {
+  max-width: none !important;
+}
